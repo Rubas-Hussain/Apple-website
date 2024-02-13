@@ -10,6 +10,8 @@ body{
     display: flex;
     justify-content: center;
     background-color: white;
+    background-color: #0000008F;
+
 
 }
 .header li{
@@ -82,4 +84,40 @@ body{
     position: absolute;
     left: 450px;
     bottom:10px;
+}
+
+/* Footer style */
+.homeFooter{
+    height: 800px;
+    width: 100%;
+    background-color: #0000008F;
+}
+
+#footercont1{
+    height: 50%;
+    padding: 40px 70px;
+    /* border:2px solid blue ; */
+    text-align: justify;
+}
+
+hr {
+    border: none;
+    height: 1px; /* Thickness of the divider */
+    margin: 0px 50px;
+    background-color: #333; /* Color of the divider */
+    /* margin-top: 20px; Space above the divider */
+    /* margin-bottom: 20px; Space below the divider */
+  }
+
+#footercont2{
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding: 50px;
+    font-size: 20px;
+}
+li{
+    padding-bottom: 20px;
 }
